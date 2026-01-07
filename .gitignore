@@ -1,8 +1,27 @@
+# Python cache
 __pycache__/
-.env
-*.faiss
-*.pkl
-*.index
-.env
+*.pyc
+*.pyo
+
+# Virtual environments
 venv/
 LCvenv/
+
+# Environment variables
+.env
+
+# Model files
+models/
+*.pkl
+*.pickle
+*.index
+*.faiss
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
