@@ -1,0 +1,9 @@
+__pycache__/
+.env
+*.faiss
+*.pkl
+*.index
+.env
+.json
+venv/
+LCvenv/
